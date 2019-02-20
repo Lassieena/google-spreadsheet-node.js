@@ -63,7 +63,7 @@ function getNewToken(oAuth2Client, callback) {
 
 /**
  * Prints the names and majors of students in a sample spreadsheet:
- * @see https://docs.google.com/spreadsheets/d/19Z3nQt9lY1SMw3drTR0ly-rRsLRkTjEUJjV9_vl9d18/edit#gid=0
+ * @see スプレッドシートurl
  * @param {google.auth.OAuth2} auth The authenticated Google OAuth client.
  */
 function listMajors(auth) {
@@ -103,7 +103,7 @@ function Listwrite(spreadsheetId, range, valueInputOption, _values) {
     });
     sheets.spreadsheets.values.append({
       auth: 'auth',
-      spreadsheetId: '19Z3nQt9lY1SMw3drTR0ly-rRsLRkTjEUJjV9_vl9d18',
+      spreadsheetId: 'スプレッドシートID',
       range: 'sheet1',
       valueInputOption: 'RAW',
       resource: "hello world",
